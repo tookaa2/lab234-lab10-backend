@@ -6,5 +6,5 @@ services:
      - "8082:8080"
   frontend:
     image: tookaa2/se234-lab10-client:latest
-      ports:
-      - "8081:80"
+    ports:
+     - "8081:80"
