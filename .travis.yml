@@ -14,6 +14,7 @@ install:
 - docker push tookaa2/se234-lab10-backend
 - docker pull tookaa2/se234-lab10-client
 script:
+- docker-compose --version
 - docker-compose -H "$DOCKER_HOST" up -d
 cache:
   directories:
